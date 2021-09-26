@@ -69,7 +69,7 @@ class _BmiCalculatorPageState extends State<BmiCalculatorPage> {
                               ),
                               child: Center(
                                 child: Icon(
-                                  Icons.exposure_minus_1,
+                                  Icons.remove,
                                   color: Colors.white,
                                   size: 30,
                                 ),
@@ -151,7 +151,7 @@ class _BmiCalculatorPageState extends State<BmiCalculatorPage> {
                               ),
                               child: Center(
                                 child: Icon(
-                                  Icons.exposure_minus_1,
+                                  Icons.remove,
                                   color: Colors.white,
                                   size: 30,
                                 ),
@@ -233,7 +233,7 @@ class _BmiCalculatorPageState extends State<BmiCalculatorPage> {
                               ),
                               child: Center(
                                 child: Icon(
-                                  Icons.exposure_minus_1,
+                                  Icons.remove,
                                   color: Colors.white,
                                   size: 30,
                                 ),
