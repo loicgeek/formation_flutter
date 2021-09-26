@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:demo_app/src/animated_todo.dart';
+import 'package:demo_app/src/bmi_calculator.dart';
 import 'package:demo_app/src/call_history.dart';
 import 'package:demo_app/src/whatsapp.dart';
 import 'package:demo_app/src/widgets/conversations_list.dart';
@@ -54,7 +55,8 @@ class _HomePageState extends State<HomePage>
         controller: _tabController,
         children: [
           ConversationsList(),
-          AnimatedTodo(),
+          BmiCalculatorPage(),
+          //AnimatedTodo(),
           CallHistory(),
         ],
       ),
