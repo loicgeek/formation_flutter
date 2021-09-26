@@ -40,7 +40,7 @@ class _ConversationsListState extends State<ConversationsList> {
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
-                              fontSize: 16,
+                              fontSize: 18,
                             ),
                           ),
                           Text(
@@ -48,6 +48,7 @@ class _ConversationsListState extends State<ConversationsList> {
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w300,
+                              fontSize: 16,
                             ),
                           ),
                         ],
